@@ -1,0 +1,5 @@
+#pipenv
+pipfile.lock
+
+#cahce 
+__pycache__/
