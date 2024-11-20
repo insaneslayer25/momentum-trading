@@ -52,4 +52,6 @@ def ticker_to_csv_converter(data, csv_file_name):
             rows.append(row)
 
     df = pd.DataFrame(rows)
-    df.to_csv(csv_file_name, index=False)
+    # df.to_csv(csv_file_name, index=False)
+
+    return df
